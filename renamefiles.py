@@ -17,10 +17,11 @@ def rename_files_sorted(directory):
     temp_dir = mkdtemp()
     video_exts = ('.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv',
               '.webm', '.m4v', '.3gp', '.mpg', '.mpeg', '.rmvb', '.ts', '.vob')
+    subtitle_exts = ('.srt', '.ass', '.ssa', '.vtt', '.txt')
     try:
 
         for filename in files:
-            if filename.lower().endswith('ass'):
+            if filename.lower().endswith(subtitle_exts):
                 ass.append(filename)
                 src = os.path.join(directory, filename)
                 dst = os.path.join(temp_dir, filename)
