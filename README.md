@@ -1,6 +1,6 @@
 # 🎬 Subtitle Tool / 字幕工具集 
 
-[English version](https://github.com/HungryNeko/Subtitle_tool/blob/main/README_EN)
+[English version](https://github.com/HungryNeko/Subtitle_tool/blob/main/README_EN.md)
 
 一个用于管理与处理字幕文件的多功能 Python 工具集。
 ## 功能概览 
